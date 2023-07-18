@@ -1,8 +1,7 @@
-export type TUserDB = {
+export type TVideos = {
     id: string,
-    name: string,
-    email: string,
-    password: string,
+    title: string,
+    duration_in_seconds: string,
     created_at: string
 }
 
